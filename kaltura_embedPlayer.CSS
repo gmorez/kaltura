@@ -1,5 +1,7 @@
+/* Target PlayKit internal container and override inline element.style */
 .playkit-container,
-.playkit-player-wrapper {
-  width: 100% !important;
+.playkit-player-wrapper,
+div[class*="playkit-"] {
+  height: auto !important;
   aspect-ratio: 16 / 9 !important;
 }
