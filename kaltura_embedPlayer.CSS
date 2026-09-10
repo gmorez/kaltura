@@ -1,5 +1,5 @@
-#kaltura_player {
-  width: 100%;
-  height: 900px;
-  aspect-ratio: 16 / 9;
+html, body, .playkit-container, .playkit-player {
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 16 / 9 !important;
 }
