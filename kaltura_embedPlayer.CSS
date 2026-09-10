@@ -1,8 +1,5 @@
-/* Target the V7 player container and wrapper */
 .playkit-container,
-.playkit-player-wrapper,
-.playkit-video-wrapper {
+.playkit-player-wrapper {
   width: 100% !important;
   aspect-ratio: 16 / 9 !important;
-  height: auto !important;
 }
