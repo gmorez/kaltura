@@ -1,7 +1,8 @@
-html, body, .playkit-container, .playkit-player {
+/* Target the V7 player container and wrapper */
+.playkit-container,
+.playkit-player-wrapper,
+.playkit-video-wrapper {
   width: 100% !important;
-  height: 100% !important;
   aspect-ratio: 16 / 9 !important;
+  height: auto !important;
 }
-a.playkit-advanced-captions-menu-link {
-display: none;}
