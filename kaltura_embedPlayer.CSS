@@ -4,4 +4,4 @@ html, body, .playkit-container, .playkit-player {
   aspect-ratio: 16 / 9 !important;
 }
 a.playkit-advanced-captions-menu-link {
-display: Yes;}
+display: none;}
